@@ -136,4 +136,9 @@ const signout = async(req, res) => {
 
 }
 
+// const verifyEmail = async (e) => {
+//     const {email} = req.body;
+
+// } 
+
 module.exports = {signup, signin, signout}
